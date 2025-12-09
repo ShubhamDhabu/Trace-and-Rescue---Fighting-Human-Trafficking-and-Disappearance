@@ -143,9 +143,10 @@ Endpoint	Method	Description
 /get-found-person	GET	Returns latest detection for UI
 /get-found-image	GET	Serves snapshot image
 📷 Screenshots (Add after uploading images)
-![Dashboard](images/dashboard.png)
-![Live Search](images/live-search.png)
-![Case Details](images/details.png)
+![Dashboard](images/Dashboard01.png)
+![Dashboard](images/Dashboard02.png)
+![Live Search](images/LiveSearch.png)
+![Case Details](images/CaseDetails.png)
 
 📌 Use Cases
 
