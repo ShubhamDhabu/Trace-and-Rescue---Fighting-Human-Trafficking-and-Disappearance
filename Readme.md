@@ -37,6 +37,7 @@ SMTP (Email notifications)
       Fully connected with Python scripts for image capture & model prediction
 
 🧠 System Architecture
+
       React Frontend ──▶ FastAPI Backend ──▶ Python Recognition Engine
                               │
                               ▼
