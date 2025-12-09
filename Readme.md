@@ -66,12 +66,16 @@ Backend Flow
 📁 Backend Folder Structure
 
 Backend/
-
 │── main.py                  # FastAPI app
+
 │── capture_faces.py         # CCTV face sample collector
+
 │── train_model.py           # LBPH model trainer
+
 │── recognize_face.py        # Real-time recognition & alerting
+
 │── found_snapshots/         # Saved match images
+
 │── missing_person_images/   # Training dataset auto-generated
 
 ⚙️ Installation & Setup
