@@ -10,6 +10,7 @@ PyWhatKit (WhatsApp automation)
 SMTP (Email notifications)
 
 🚀 Features
+
 🔹 AI-Powered Face Recognition
       Extracts face samples automatically from CCTV
       Trains an LBPH (Local Binary Patterns Histograms) model
