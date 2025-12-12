@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Professional blue/gray/white color system */
+    --background: 210 30% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Primary blue tones */
+    --primary: 210 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 85% 40%;
+    
+    /* Secondary gray tones */
+    --secondary: 215 20% 95%;
+    --secondary-foreground: 215 25% 20%;
+
+    /* Muted backgrounds */
+    --muted: 210 30% 96%;
+    --muted-foreground: 215 15% 45%;
+
+    /* Accent for highlights */
+    --accent: 205 80% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Borders and inputs */
+    --border: 215 20% 88%;
+    --input: 215 20% 88%;
+    --ring: 210 85% 45%;
+
+    --radius: 0.5rem;
+
+    /* Dashboard specific */
+    --dashboard-bg: 210 25% 97%;
+    --dashboard-card: 0 0% 100%;
+    --dashboard-sidebar: 215 30% 20%;
+    --dashboard-sidebar-foreground: 0 0% 95%;
+
+    --sidebar-background: 215 30% 20%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 210 85% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 25% 25%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 215 25% 25%;
+    --sidebar-ring: 210 85% 45%;
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 215 30% 12%;
+    --foreground: 210 20% 90%;
+
+    --card: 215 28% 16%;
+    --card-foreground: 210 20% 90%;
+
+    --popover: 215 28% 16%;
+    --popover-foreground: 210 20% 90%;
+
+    --primary: 210 85% 50%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 85% 45%;
+
+    --secondary: 215 25% 20%;
+    --secondary-foreground: 210 20% 85%;
+
+    --muted: 215 25% 18%;
+    --muted-foreground: 215 15% 60%;
+
+    --accent: 205 80% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 75% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 25% 22%;
+    --input: 215 25% 22%;
+    --ring: 210 85% 50%;
+    
+    --dashboard-bg: 215 30% 12%;
+    --dashboard-card: 215 28% 16%;
+    --dashboard-sidebar: 215 35% 10%;
+    --dashboard-sidebar-foreground: 0 0% 90%;
+
+    --sidebar-background: 215 35% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 210 85% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 215 30% 15%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 215 30% 15%;
+    --sidebar-ring: 210 85% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
