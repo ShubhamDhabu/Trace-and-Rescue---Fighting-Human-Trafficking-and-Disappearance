@@ -121,6 +121,7 @@ Endpoint	Method	Description
 
 /get-found-image	GET	Serves snapshot image
 
+For Locally hosting/running the Website
 
 To Run Backend(copy-paste the command given below on terminal):
 
