@@ -154,10 +154,10 @@ Public safety organizations
 
 NGOs handling lost-person cases
 
-👨‍💻 Author
+------------------------------------------------------------
+AUTHOR
+------------------------------------------------------------
 
-Shubham Dhabu
-
+Shubham Dhabu<br>
 AI & Full-Stack Developer
-
 Open to collaborations!
