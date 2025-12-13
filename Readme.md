@@ -158,6 +158,6 @@ NGOs handling lost-person cases
 AUTHOR
 ------------------------------------------------------------
 
-Shubham Dhabu<br>
-AI & Full-Stack Developer
+Shubham Dhabu  
+AI & Full-Stack Developer  
 Open to collaborations!
