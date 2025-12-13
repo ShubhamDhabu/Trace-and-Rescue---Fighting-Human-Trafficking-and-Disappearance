@@ -122,6 +122,19 @@ Endpoint	Method	Description
 /get-found-image	GET	Serves snapshot image
 
 
+To Run Backend(copy-paste the command given below on terminal):
+
+      cd Backend
+      uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+
+---------------------------------------------------------------------------------------------
+
+To Run Frontend(copy-paste the command given below on another terminal):
+
+      npm run dev
+
+
 📷 Screenshots (Add after uploading images)
 ![Dashboard](images/Dashboard01.png)
 ![Dashboard](images/Dashboard02.png)
