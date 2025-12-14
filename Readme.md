@@ -159,5 +159,4 @@ AUTHOR
 ------------------------------------------------------------
 
 Shubham Dhabu  
-AI & Full-Stack Developer  
-Open to collaborations!
+Open to collaboration 
