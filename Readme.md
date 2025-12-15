@@ -136,7 +136,7 @@ To Run Frontend(copy-paste the command given below on another terminal):
       npm run dev
 
 
-📷 Screenshots (Add after uploading images)
+📷 Screenshots
 ![Dashboard](images/Dashboard01.png)
 ![Dashboard](images/Dashboard02.png)
 ![Live Search](images/LiveSearch.png)
